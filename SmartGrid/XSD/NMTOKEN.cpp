@@ -1,0 +1,18 @@
+///////////////////////////////////////////////////////////
+//  NMTOKEN.cpp
+//  Implementation of the Class NMTOKEN
+//  Created on:      13-Apr-2020 2:51:35 PM
+///////////////////////////////////////////////////////////
+
+#include "NMTOKEN.h"
+
+
+NMTOKEN::NMTOKEN(){
+
+}
+
+
+
+NMTOKEN::~NMTOKEN(){
+
+}

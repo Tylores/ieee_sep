@@ -1,0 +1,19 @@
+///////////////////////////////////////////////////////////
+//  Link.cpp
+//  Implementation of the Class Link
+//  Created on:      13-Apr-2020 2:51:32 PM
+//  Original author: svanausdall
+///////////////////////////////////////////////////////////
+
+#include "Link.h"
+
+
+Link::Link(){
+
+}
+
+
+
+Link::~Link(){
+
+}

@@ -1,0 +1,19 @@
+///////////////////////////////////////////////////////////
+//  DER.cpp
+//  Implementation of the Class DER
+//  Created on:      13-Apr-2020 2:51:24 PM
+//  Original author: vanausse
+///////////////////////////////////////////////////////////
+
+#include "DER.h"
+
+
+DER::DER(){
+
+}
+
+
+
+DER::~DER(){
+
+}

@@ -1,0 +1,19 @@
+///////////////////////////////////////////////////////////
+//  List.cpp
+//  Implementation of the Class List
+//  Created on:      13-Apr-2020 2:51:33 PM
+//  Original author: svanausdall
+///////////////////////////////////////////////////////////
+
+#include "List.h"
+
+
+List::List(){
+
+}
+
+
+
+List::~List(){
+
+}

@@ -1,0 +1,18 @@
+///////////////////////////////////////////////////////////
+//  double.cpp
+//  Implementation of the Class double
+//  Created on:      13-Apr-2020 2:51:27 PM
+///////////////////////////////////////////////////////////
+
+#include "double.h"
+
+
+double::double(){
+
+}
+
+
+
+double::~double(){
+
+}

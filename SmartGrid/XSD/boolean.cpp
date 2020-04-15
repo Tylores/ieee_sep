@@ -1,0 +1,18 @@
+///////////////////////////////////////////////////////////
+//  boolean.cpp
+//  Implementation of the Class boolean
+//  Created on:      13-Apr-2020 2:51:22 PM
+///////////////////////////////////////////////////////////
+
+#include "boolean.h"
+
+
+boolean::boolean(){
+
+}
+
+
+
+boolean::~boolean(){
+
+}

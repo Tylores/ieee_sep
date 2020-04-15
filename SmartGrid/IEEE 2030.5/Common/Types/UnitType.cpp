@@ -1,0 +1,18 @@
+///////////////////////////////////////////////////////////
+//  UnitType.cpp
+//  Implementation of the Class UnitType
+//  Created on:      13-Apr-2020 2:51:46 PM
+///////////////////////////////////////////////////////////
+
+#include "UnitType.h"
+
+
+UnitType::UnitType(){
+
+}
+
+
+
+UnitType::~UnitType(){
+
+}

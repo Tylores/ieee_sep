@@ -1,0 +1,18 @@
+///////////////////////////////////////////////////////////
+//  dateTime.cpp
+//  Implementation of the Class dateTime
+//  Created on:      13-Apr-2020 2:51:24 PM
+///////////////////////////////////////////////////////////
+
+#include "dateTime.h"
+
+
+dateTime::dateTime(){
+
+}
+
+
+
+dateTime::~dateTime(){
+
+}

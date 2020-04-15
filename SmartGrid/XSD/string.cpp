@@ -1,0 +1,18 @@
+///////////////////////////////////////////////////////////
+//  string.cpp
+//  Implementation of the Class string
+//  Created on:      13-Apr-2020 2:51:42 PM
+///////////////////////////////////////////////////////////
+
+#include "string.h"
+
+
+string::string(){
+
+}
+
+
+
+string::~string(){
+
+}

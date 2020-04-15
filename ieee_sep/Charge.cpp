@@ -1,0 +1,18 @@
+///////////////////////////////////////////////////////////
+//  Charge.cpp
+//  Implementation of the Class Charge
+//  Created on:      13-Apr-2020 2:51:22 PM
+///////////////////////////////////////////////////////////
+
+#include "Charge.h"
+
+
+Charge::Charge(){
+
+}
+
+
+
+Charge::~Charge(){
+
+}

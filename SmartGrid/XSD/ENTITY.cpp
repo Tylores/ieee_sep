@@ -1,0 +1,18 @@
+///////////////////////////////////////////////////////////
+//  ENTITY.cpp
+//  Implementation of the Class ENTITY
+//  Created on:      13-Apr-2020 2:51:28 PM
+///////////////////////////////////////////////////////////
+
+#include "ENTITY.h"
+
+
+ENTITY::ENTITY(){
+
+}
+
+
+
+ENTITY::~ENTITY(){
+
+}

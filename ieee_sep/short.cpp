@@ -1,0 +1,18 @@
+///////////////////////////////////////////////////////////
+//  short.cpp
+//  Implementation of the Class short
+//  Created on:      13-Apr-2020 2:51:42 PM
+///////////////////////////////////////////////////////////
+
+#include "short.h"
+
+
+short::short(){
+
+}
+
+
+
+short::~short(){
+
+}

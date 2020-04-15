@@ -1,0 +1,18 @@
+///////////////////////////////////////////////////////////
+//  integer.cpp
+//  Implementation of the Class integer
+//  Created on:      13-Apr-2020 2:51:32 PM
+///////////////////////////////////////////////////////////
+
+#include "integer.h"
+
+
+integer::integer(){
+
+}
+
+
+
+integer::~integer(){
+
+}

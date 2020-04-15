@@ -1,0 +1,18 @@
+///////////////////////////////////////////////////////////
+//  language.cpp
+//  Implementation of the Class language
+//  Created on:      13-Apr-2020 2:51:32 PM
+///////////////////////////////////////////////////////////
+
+#include "language.h"
+
+
+language::language(){
+
+}
+
+
+
+language::~language(){
+
+}

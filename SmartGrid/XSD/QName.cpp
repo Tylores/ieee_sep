@@ -1,0 +1,18 @@
+///////////////////////////////////////////////////////////
+//  QName.cpp
+//  Implementation of the Class QName
+//  Created on:      13-Apr-2020 2:51:38 PM
+///////////////////////////////////////////////////////////
+
+#include "QName.h"
+
+
+QName::QName(){
+
+}
+
+
+
+QName::~QName(){
+
+}

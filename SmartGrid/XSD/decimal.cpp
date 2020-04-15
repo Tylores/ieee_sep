@@ -1,0 +1,18 @@
+///////////////////////////////////////////////////////////
+//  decimal.cpp
+//  Implementation of the Class decimal
+//  Created on:      13-Apr-2020 2:51:24 PM
+///////////////////////////////////////////////////////////
+
+#include "decimal.h"
+
+
+decimal::decimal(){
+
+}
+
+
+
+decimal::~decimal(){
+
+}

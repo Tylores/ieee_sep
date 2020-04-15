@@ -1,0 +1,18 @@
+///////////////////////////////////////////////////////////
+//  float.cpp
+//  Implementation of the Class float
+//  Created on:      13-Apr-2020 2:51:29 PM
+///////////////////////////////////////////////////////////
+
+#include "float.h"
+
+
+float::float(){
+
+}
+
+
+
+float::~float(){
+
+}

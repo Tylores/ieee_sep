@@ -1,0 +1,18 @@
+///////////////////////////////////////////////////////////
+//  token.cpp
+//  Implementation of the Class token
+//  Created on:      13-Apr-2020 2:51:45 PM
+///////////////////////////////////////////////////////////
+
+#include "token.h"
+
+
+token::token(){
+
+}
+
+
+
+token::~token(){
+
+}

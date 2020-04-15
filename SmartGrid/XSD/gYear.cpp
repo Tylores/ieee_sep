@@ -1,0 +1,18 @@
+///////////////////////////////////////////////////////////
+//  gYear.cpp
+//  Implementation of the Class gYear
+//  Created on:      13-Apr-2020 2:51:30 PM
+///////////////////////////////////////////////////////////
+
+#include "gYear.h"
+
+
+gYear::gYear(){
+
+}
+
+
+
+gYear::~gYear(){
+
+}

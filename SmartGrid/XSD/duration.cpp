@@ -1,0 +1,18 @@
+///////////////////////////////////////////////////////////
+//  duration.cpp
+//  Implementation of the Class duration
+//  Created on:      13-Apr-2020 2:51:27 PM
+///////////////////////////////////////////////////////////
+
+#include "duration.h"
+
+
+duration::duration(){
+
+}
+
+
+
+duration::~duration(){
+
+}

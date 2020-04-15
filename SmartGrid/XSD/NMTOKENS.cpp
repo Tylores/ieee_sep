@@ -1,0 +1,18 @@
+///////////////////////////////////////////////////////////
+//  NMTOKENS.cpp
+//  Implementation of the Class NMTOKENS
+//  Created on:      13-Apr-2020 2:51:35 PM
+///////////////////////////////////////////////////////////
+
+#include "NMTOKENS.h"
+
+
+NMTOKENS::NMTOKENS(){
+
+}
+
+
+
+NMTOKENS::~NMTOKENS(){
+
+}

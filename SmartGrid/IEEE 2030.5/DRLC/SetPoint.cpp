@@ -1,0 +1,18 @@
+///////////////////////////////////////////////////////////
+//  SetPoint.cpp
+//  Implementation of the Class SetPoint
+//  Created on:      13-Apr-2020 2:51:42 PM
+///////////////////////////////////////////////////////////
+
+#include "SetPoint.h"
+
+
+SetPoint::SetPoint(){
+
+}
+
+
+
+SetPoint::~SetPoint(){
+
+}

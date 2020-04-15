@@ -1,0 +1,18 @@
+///////////////////////////////////////////////////////////
+//  NCName.cpp
+//  Implementation of the Class NCName
+//  Created on:      13-Apr-2020 2:51:35 PM
+///////////////////////////////////////////////////////////
+
+#include "NCName.h"
+
+
+NCName::NCName(){
+
+}
+
+
+
+NCName::~NCName(){
+
+}
