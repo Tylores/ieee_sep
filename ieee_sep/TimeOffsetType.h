@@ -13,12 +13,18 @@
 /**
  * A signed time offset, typically applied to a Time value, expressed in seconds.
  */
-class TimeOffsetType : public Int32
-{
 
-public:
-	TimeOffsetType();
-	virtual ~TimeOffsetType();
-
+namespace sep {
+    typedef Int32 TimeOffsetType;
 };
+
+// NOT IMPLEMENTED
+//class TimeOffsetType : public Int32
+//{
+//
+//public:
+//	TimeOffsetType();
+//	virtual ~TimeOffsetType();
+//
+//};
 #endif // !defined(EA_32AF2CC1_6616_4cfa_9AF7_2B617E7AEFEF__INCLUDED_)

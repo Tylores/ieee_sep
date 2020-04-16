@@ -9,6 +9,7 @@
 #define EA_1D061513_18E7_4097_8D8E_240CFF7DF689__INCLUDED_
 
 #include "anyURI.h"
+#include <string>
 
 /**
  * A resource is an addressable unit of information, either a collection (List) or
@@ -18,13 +19,13 @@ class Resource
 {
 
 public:
-	Resource();
+	Resource(const std::string& uri = "");
 	virtual ~Resource();
 	/**
 	 * A reference to the resource address (URI). Required in a response to a GET,
-	 * ignored otherwise. 
+	 * ignored otherwise.
 	 */
-	anyURI href;
+	sep::anyURI href;
 
 };
 #endif // !defined(EA_1D061513_18E7_4097_8D8E_240CFF7DF689__INCLUDED_)

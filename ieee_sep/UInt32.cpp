@@ -7,13 +7,13 @@
 
 #include "UInt32.h"
 
-
-UInt32::UInt32(){
-
-}
-
-
-
-UInt32::~UInt32(){
-
-}
+// NOT IMPLEMENTED
+//UInt32::UInt32(){
+//
+//}
+//
+//
+//
+//UInt32::~UInt32(){
+//
+//}

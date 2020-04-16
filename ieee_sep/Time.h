@@ -15,7 +15,7 @@
 #include "Resource.h"
 
 /**
- * Contains the representation of time, constantly updated. 
+ * Contains the representation of time, constantly updated.
  */
 class Time : public Resource
 {
@@ -26,34 +26,34 @@ public:
 	/**
 	 * The current time, in the format defined by TimeType.
 	 */
-	TimeType currentTime;
+	sep::TimeType currentTime;
 	/**
 	 * Time at which daylight savings ends (dstOffset no longer applied).  Result of
 	 * dstEndRule calculation.
 	 */
-	TimeType dstEndTime;
+	sep::TimeType dstEndTime;
 	/**
 	 * Daylight savings time offset from local standard time. A typical practice is
 	 * advancing clocks one hour when daylight savings time is in effect, which would
 	 * result in a positive dstOffset.
 	 */
-	TimeOffsetType dstOffset;
+	sep::TimeOffsetType dstOffset;
 	/**
 	 * Time at which daylight savings begins (apply dstOffset).  Result of
 	 * dstStartRule calculation.
 	 */
-	TimeType dstStartTime;
+	sep::TimeType dstStartTime;
 	/**
 	 * Local time: localTime = currentTime + tzOffset (+ dstOffset when in effect).
 	 */
-	TimeType localTime;
+	sep::TimeType localTime;
 	/**
 	 * The default polling rate for this function set (this resource and all resources
 	 * below), in seconds. If not specified, a default of 900 seconds (15 minutes) is
 	 * used. It is RECOMMENDED a client poll the resources of this function set every
 	 * pollRate seconds.
 	 */
-	UInt32 pollRate;
+	sep::UInt32 pollRate;
 	/**
 	 * Metric indicating the quality of the time source from which the service
 	 * acquired time. Lower (smaller) quality enumeration values are assumed to be
@@ -65,13 +65,13 @@ public:
 	 * 7 - time intentionally uncoordinated
 	 * All other values are reserved for future use.
 	 */
-	UInt8 quality;
+	sep::UInt8 quality;
 	/**
 	 * Local time zone offset from currentTime. Does not include any daylight savings
 	 * time offsets. For American time zones, a negative tzOffset SHALL be used (eg,
 	 * EST = GMT-5 which is -18000).
 	 */
-	TimeOffsetType tzOffset;
+	sep::TimeOffsetType tzOffset;
 
 };
 #endif // !defined(EA_A0198164_47C6_4667_B511_3D15FA9CDB2D__INCLUDED_)

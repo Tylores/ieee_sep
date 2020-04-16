@@ -12,12 +12,18 @@
  * Signed integer, max inclusive 2147483647 (2^31), min inclusive -2147483647
  * (same as xs:int)
  */
-class Int32 : public int
-{
 
-public:
-	Int32();
-	virtual ~Int32();
-
+namespace sep {
+    typedef long int Int32;
 };
+
+// NOT IMPLEMENTED
+//class Int32 : public int
+//{
+//
+//public:
+//	Int32();
+//	virtual ~Int32();
+//
+//};
 #endif // !defined(EA_0051AC39_C4CE_4946_AFBF_BE6782F84826__INCLUDED_)

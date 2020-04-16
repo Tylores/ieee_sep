@@ -7,13 +7,13 @@
 
 #include "Int64.h"
 
-
-Int64::Int64(){
-
-}
-
-
-
-Int64::~Int64(){
-
-}
+// NOT IMPLEMENTED
+//Int64::Int64(){
+//
+//}
+//
+//
+//
+//Int64::~Int64(){
+//
+//}

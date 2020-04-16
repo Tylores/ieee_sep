@@ -11,12 +11,16 @@
 /**
  * Unsigned integer, max inclusive 255 (2^8-1)
  */
-class UInt8 : public unsignedByte
-{
 
-public:
-	UInt8();
-	virtual ~UInt8();
-
+namespace sep {
+    typedef unsigned char UInt8;
 };
+//class UInt8 : public unsignedByte
+//{
+//
+//public:
+//	UInt8();
+//	virtual ~UInt8();
+//
+//};
 #endif // !defined(EA_E4409FA5_8541_478f_8D06_2FEDFC9B4B82__INCLUDED_)

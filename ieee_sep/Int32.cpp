@@ -7,13 +7,13 @@
 
 #include "Int32.h"
 
-
-Int32::Int32(){
-
-}
-
-
-
-Int32::~Int32(){
-
-}
+// NOT IMPLEMENTED
+//Int32::Int32(){
+//
+//}
+//
+//
+//
+//Int32::~Int32(){
+//
+//}

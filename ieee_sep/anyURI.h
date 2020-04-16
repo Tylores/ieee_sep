@@ -8,13 +8,19 @@
 #define EA_A9A091D2_9FBF_4c9b_BB0E_9B3E95D37D79__INCLUDED_
 
 #include "anySimpleType.h"
+#include <string>
 
-class anyURI : public anySimpleType
-{
-
-public:
-	anyURI();
-	virtual ~anyURI();
-
+namespace sep {
+    typedef std::string anyURI;
 };
+
+// NOT IMPLEMENTED
+//class anyURI : public anySimpleType
+//{
+//
+//public:
+//	anyURI();
+//	virtual ~anyURI();
+//
+//};
 #endif // !defined(EA_A9A091D2_9FBF_4c9b_BB0E_9B3E95D37D79__INCLUDED_)

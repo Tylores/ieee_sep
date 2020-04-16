@@ -11,12 +11,17 @@
 /**
  * Unsigned integer, max inclusive 4294967295 (2^32-1)
  */
-class UInt32 : public unsignedInt
-{
 
-public:
-	UInt32();
-	virtual ~UInt32();
-
+namespace sep {
+    typedef unsigned long int UInt32;
 };
+
+//class UInt32 : public unsignedInt
+//{
+//
+//public:
+//	UInt32();
+//	virtual ~UInt32();
+//
+//};
 #endif // !defined(EA_F975E002_D825_49b2_B443_4A259A9AF035__INCLUDED_)

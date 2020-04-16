@@ -6,13 +6,13 @@
 
 #include "anyURI.h"
 
-
-anyURI::anyURI(){
-
-}
-
-
-
-anyURI::~anyURI(){
-
-}
+// NOT IMPLEMENTED
+//anyURI::anyURI(){
+//
+//}
+//
+//
+//
+//anyURI::~anyURI(){
+//
+//}

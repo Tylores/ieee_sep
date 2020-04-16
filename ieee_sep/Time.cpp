@@ -9,7 +9,13 @@
 
 
 Time::Time() : pollRate(900){
-
+	currentTime = 100;
+	dstEndTime = 200;
+	dstOffset = 300;
+	dstStartTime = 400;
+	localTime = 500;
+	quality = 1;
+	tzOffset = 600;
 }
 
 

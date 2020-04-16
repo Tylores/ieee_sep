@@ -8,7 +8,7 @@
 #include "Resource.h"
 
 
-Resource::Resource(){
+Resource::Resource(const std::string& uri) : href(uri){
 
 }
 

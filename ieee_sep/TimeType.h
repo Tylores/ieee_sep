@@ -13,14 +13,20 @@
 /**
  * Time is a signed 64 bit value representing the number of seconds since 0 hours,
  * 0 minutes, 0 seconds, on the 1st of January, 1970, in UTC, not counting leap
- * seconds. 
+ * seconds.
  */
-class TimeType : public Int64
-{
 
-public:
-	TimeType();
-	virtual ~TimeType();
-
+namespace sep {
+    typedef Int64 TimeType;
 };
+
+// NOT IMPLEMENTED
+//class TimeType : public Int64
+//{
+//
+//public:
+//	TimeType();
+//	virtual ~TimeType();
+//
+//};
 #endif // !defined(EA_BAAFFF30_09A1_4621_B8C9_8B84627E5852__INCLUDED_)

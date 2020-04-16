@@ -6,13 +6,13 @@
 
 #include "anySimpleType.h"
 
-
-anySimpleType::anySimpleType(){
-
-}
-
-
-
-anySimpleType::~anySimpleType(){
-
-}
+// NOT IMPLEMENTED
+//anySimpleType::anySimpleType(){
+//
+//}
+//
+//
+//
+//anySimpleType::~anySimpleType(){
+//
+//}

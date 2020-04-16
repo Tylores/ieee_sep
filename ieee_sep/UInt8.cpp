@@ -7,13 +7,13 @@
 
 #include "UInt8.h"
 
-
-UInt8::UInt8(){
-
-}
-
-
-
-UInt8::~UInt8(){
-
-}
+// NOT IMPLEMENTED
+//UInt8::UInt8(){
+//
+//}
+//
+//
+//
+//UInt8::~UInt8(){
+//
+//}

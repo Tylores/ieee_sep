@@ -7,13 +7,13 @@
 
 #include "TimeOffsetType.h"
 
-
-TimeOffsetType::TimeOffsetType(){
-
-}
-
-
-
-TimeOffsetType::~TimeOffsetType(){
-
-}
+// NOT IMPLEMENTED
+//TimeOffsetType::TimeOffsetType(){
+//
+//}
+//
+//
+//
+//TimeOffsetType::~TimeOffsetType(){
+//
+//}

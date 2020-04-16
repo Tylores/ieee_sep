@@ -7,13 +7,13 @@
 
 #include "TimeType.h"
 
-
-TimeType::TimeType(){
-
-}
-
-
-
-TimeType::~TimeType(){
-
-}
+// NOT IMPLEMENTED
+//TimeType::TimeType(){
+//
+//}
+//
+//
+//
+//TimeType::~TimeType(){
+//
+//}

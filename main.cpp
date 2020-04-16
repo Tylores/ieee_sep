@@ -6,6 +6,8 @@
 #include <boost/property_tree/ptree.hpp>
 #include <boost/foreach.hpp>
 
+#include "ieee_sep/Time.h"
+
 using namespace std;
 namespace pt = boost::property_tree;
 const std::string xsd_path = "./sep.xsd";
@@ -137,19 +139,12 @@ void parseWADL ()
     printDuplicates(paths);
 }
 
-namespace sep {
-    typedef bool boolean;
-    using int = int;
-};
-
-
 int main()
 {
 
     //parseWADL();
     //Time tm();
-    sep::boolean x = false;
-    sep::int y = 292929292;
-    cout << y << endl;
+    Time clk;
+    cout << clk.currentTime << endl;
     return 0;
 }
