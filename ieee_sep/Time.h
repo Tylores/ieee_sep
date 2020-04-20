@@ -73,5 +73,7 @@ public:
 	 */
 	sep::TimeOffsetType tzOffset;
 
+	boost::property_tree::ptree serialize();
+
 };
 #endif // !defined(EA_A0198164_47C6_4667_B511_3D15FA9CDB2D__INCLUDED_)

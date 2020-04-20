@@ -10,6 +10,8 @@
 
 #include "anyURI.h"
 #include <string>
+#include <boost/property_tree/xml_parser.hpp>
+#include <boost/property_tree/ptree.hpp>
 
 /**
  * A resource is an addressable unit of information, either a collection (List) or
@@ -21,6 +23,7 @@ class Resource
 public:
 	Resource(const std::string& uri = "");
 	virtual ~Resource();
+	virtual boost::property_tree::ptree serialize() = 0;
 	/**
 	 * A reference to the resource address (URI). Required in a response to a GET,
 	 * ignored otherwise.

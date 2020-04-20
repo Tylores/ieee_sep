@@ -139,12 +139,34 @@ void parseWADL ()
     printDuplicates(paths);
 }
 
+
+
+
+
+#include <xercesc/util/PlatformUtils.hpp>
+using namespace xercesc;
+
 int main()
 {
+try {
+    XMLPlatformUtils::Initialize();
+  }
+  catch (const XMLException& toCatch) {
+    // Do your failure processing here
+    return 1;
+  }
+
+  // Do your actual work with Xerces-C++ here.
+
+  XMLPlatformUtils::Terminate();
+
+  // Other terminations and cleanup.
 
     //parseWADL();
     //Time tm();
     Time clk;
-    cout << clk.currentTime << endl;
+    cout << clk.tzOffset << endl;
+    clk.href = "/tm";
+    cout << clk.href << endl;
     return 0;
 }

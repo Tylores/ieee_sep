@@ -12,7 +12,9 @@
 				<Option type="1" />
 				<Option compiler="gcc" />
 				<Compiler>
+					<Add option="-std=c++11" />
 					<Add option="-g" />
+					<Add directory="F:/Documents/boost_1_70_0" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
@@ -30,15 +32,30 @@
 		</Build>
 		<Compiler>
 			<Add option="-Wall" />
+			<Add option="-std=gnu++11" />
 			<Add option="-fexceptions" />
 			<Add directory="F:/Documents/boost_1_70_0" />
 		</Compiler>
+		<Unit filename="ieee_sep/Int64.cpp" />
+		<Unit filename="ieee_sep/Int64.h" />
+		<Unit filename="ieee_sep/Resource.cpp" />
+		<Unit filename="ieee_sep/Resource.h" />
+		<Unit filename="ieee_sep/Time.cpp" />
+		<Unit filename="ieee_sep/Time.h" />
+		<Unit filename="ieee_sep/TimeOffsetType.cpp" />
+		<Unit filename="ieee_sep/TimeOffsetType.h" />
+		<Unit filename="ieee_sep/TimeType.cpp" />
+		<Unit filename="ieee_sep/TimeType.h" />
+		<Unit filename="ieee_sep/UInt32.cpp" />
+		<Unit filename="ieee_sep/UInt32.h" />
+		<Unit filename="ieee_sep/UInt8.cpp" />
+		<Unit filename="ieee_sep/UInt8.h" />
+		<Unit filename="ieee_sep/anySimpleType.cpp" />
+		<Unit filename="ieee_sep/anySimpleType.h" />
+		<Unit filename="ieee_sep/anyURI.cpp" />
+		<Unit filename="ieee_sep/anyURI.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="sep.xsd" />
-		<Extensions>
-			<code_completion />
-			<envvars />
-			<debugger />
-		</Extensions>
+		<Extensions />
 	</Project>
 </CodeBlocks_project_file>
