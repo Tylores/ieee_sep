@@ -142,8 +142,10 @@ void parseWADL ()
 
 
 
-
 #include <xercesc/util/PlatformUtils.hpp>
+#include <xercesc/util/XMLString.hpp>
+#include <xercesc/dom/DOM.hpp>
+#include <xercesc/util/OutOfMemoryException.hpp>
 using namespace xercesc;
 
 int main()
